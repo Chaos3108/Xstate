@@ -95,7 +95,7 @@ const Xstate = () => {
         {selectedCity && selectedCity && selectedState ? (
           <>
             {" "}
-            You selected {selectedCity} {selectedState} {selectedCounty}
+            You selected {selectedCity}, {selectedState}, {selectedCounty}
           </>
         ) : (
           <></>
